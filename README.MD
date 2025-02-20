@@ -1,8 +1,11 @@
 # PHP & Docker Setup
 
-To start up the PHP and nginx containers, first, navigate to the `docker` directory.
+### Requirements
+You should have Docker & Docker Compose installed on your system.
 
-Then run `docker-compose up -d`
+### Steps
 
-Then open up your browser and go to http://localhost:8000,
-to confirm that you see the PHP info page.
+- run `start.sh`
+- open up your browser
+- visit http://localhost:8000
+- confirm that the PHP info page is visible
